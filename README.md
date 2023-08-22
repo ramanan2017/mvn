@@ -9,3 +9,4 @@ git remote rename origin old-origin
 git remote add origin git@gitlab.com:nagadevops2016/mvn-app1.git
 git push --set-upstream origin --all
 git push --set-upstream origin --tags
+ this is for develop brnach
