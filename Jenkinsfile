@@ -6,7 +6,7 @@ pipeline {
         stage('github') {
             steps {
                 // Get some code from a GitHub repository
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/rajudevops1543/mvn.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ramanan2017/mvn.git']])
             }
         }
         stage('maven') {
